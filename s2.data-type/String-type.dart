@@ -1,5 +1,15 @@
 main(List<String> args) {
-  String title = 'Dart course';
-  print(title.toUpperCase());
-  print(title.toLowerCase());
+  //Change String to uppercase and lowercase
+  // String title = 'Dart course';
+  // print(title.toUpperCase());
+  // print(title.toLowerCase());
+
+  //find substring in string by contain
+  String lovePizza = 'I love pizza';
+  // bool lovePasta = lovePizza.contains('pizza');
+  // print(lovePasta.toString());
+
+  //find and replace string
+  String lovePasta = lovePizza.replaceAll('pizza', 'pasta');
+  print(lovePasta);
 }
